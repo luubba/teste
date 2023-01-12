@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(/scss/images/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+.container1{
+  background-color: #073004e3;
+  width: 450px;
+  height: auto;
+}
+
+.brasao{
+  width: 4000px;
+}
+
+.paragraph{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.button{
+  border: 2px solid transparent;
+  color: white;
+  &:hover{
+    border: 2px solid white;
+  }
+}
